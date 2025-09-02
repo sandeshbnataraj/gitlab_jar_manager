@@ -20,12 +20,19 @@ This project demonstrates **practical artifact management** for real-world workf
 ## **Key Features**
 
 ✅ Upload single or multiple `.jar` files to GitLab  registry
+
 ✅ Automatically parse **artifactId** and **version** from filenames
+
 ✅ Handle nested directories (`--upload-all` / `--download-all`)
+
 ✅ Maintain `library.json` manifests for tracking artifacts
+
 ✅ Delete local JARs after successful upload (to avoid duplicates)
+
 ✅ Resume-friendly: avoids re-adding existing artifacts in JSON
+
 ✅ Robust error handling for network and file system issues
+
 
 ---
 
@@ -35,7 +42,7 @@ This project demonstrates **practical artifact management** for real-world workf
 
 ```sh
 git clone git@github.com:sandeshbnataraj/gitlab_jar_manager.git
-cd jarsync
+cd gitlab_jar_manager
 ```
 
 ### **2. Install Dependencies**
